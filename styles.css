@@ -1,0 +1,41 @@
+/* body {
+  color: red;
+} */
+
+/* .navbar {
+  padding: 1rem;
+  background-color: blue;
+} */
+/* comment them out because they don't match well with the rest of page. */
+
+.bg-secondary {
+  padding: 2rem;
+  background: blue;
+}
+
+.btn-primary:hover {
+  background-color: blue;
+  color: white;
+}
+
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+  opacity: 0.5;
+}
